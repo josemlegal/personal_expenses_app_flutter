@@ -70,6 +70,11 @@ class MyHomePage extends StatelessWidget {
                       padding: const EdgeInsets.all(10),
                       child: Text(
                         tx.amount.toString(),
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                          color: Colors.purple,
+                        ),
                       ),
                     ),
                     Column(
